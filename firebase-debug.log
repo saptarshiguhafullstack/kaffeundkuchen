@@ -1,0 +1,86 @@
+[debug] [2022-03-29T14:23:52.679Z] ----------------------------------------------------------------------
+[debug] [2022-03-29T14:23:52.686Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-29T14:23:52.687Z] CLI Version:   10.5.0
+[debug] [2022-03-29T14:23:52.687Z] Platform:      win32
+[debug] [2022-03-29T14:23:52.688Z] Node Version:  v16.13.2
+[debug] [2022-03-29T14:23:52.690Z] Time:          Wed Mar 30 2022 01:23:52 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2022-03-29T14:23:52.691Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-29T14:23:52.859Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-29T14:23:52.860Z] > authorizing via signed-in user (saptarshi.guha2015@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rapan\1 Food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-03-29T14:24:04.170Z] Using project from CLI flag: kaffeeundkuchen-7740b
+[debug] [2022-03-29T14:24:04.178Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b [none]
+[debug] [2022-03-29T14:24:05.071Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b 403
+[debug] [2022-03-29T14:24:05.072Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-03-29T14:24:05.073Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-03-29T14:24:05.363Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project kaffeeundkuchen-7740b. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-03-29T14:24:43.525Z] ----------------------------------------------------------------------
+[debug] [2022-03-29T14:24:43.530Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-03-29T14:24:43.531Z] CLI Version:   10.5.0
+[debug] [2022-03-29T14:24:43.531Z] Platform:      win32
+[debug] [2022-03-29T14:24:43.531Z] Node Version:  v16.13.2
+[debug] [2022-03-29T14:24:43.534Z] Time:          Wed Mar 30 2022 01:24:43 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2022-03-29T14:24:43.534Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-29T14:24:43.679Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-29T14:24:43.679Z] > authorizing via signed-in user (saptarshi.guha2015@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rapan\1 Food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-03-29T14:25:00.460Z] Using project from CLI flag: kaffeeundkuchen-7740b
+[debug] [2022-03-29T14:25:00.468Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b [none]
+[debug] [2022-03-29T14:25:01.174Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b 403
+[debug] [2022-03-29T14:25:01.175Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kaffeeundkuchen-7740b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-03-29T14:25:01.177Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-03-29T14:25:01.473Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\rapan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project kaffeeundkuchen-7740b. Please make sure the project exists and your account has permission to access it.
